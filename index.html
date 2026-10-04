@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Graynaldo Fahrul – Mahasiswa D4 Manajemen Informatika Universitas Negeri Surabaya." />
+    <meta name="author" content="Graynaldo Fahrul Oktavian Putra Mahendra" />
+    <title>Graynaldo Fahrul | Student Portfolio</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <span class="brand-accent">Gray</span>naldo
+        </a>
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <i class="bi bi-list nav-toggle-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-1">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero-section">
+      <div class="hero-bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <div class="container h-100">
+        <div class="row align-items-center min-vh-100 py-5">
+          <div class="col-lg-7 order-2 order-lg-1">
+
+            <p class="hero-hi">Halo, saya</p>
+            <h1 class="hero-name">
+              Graynaldo <span class="text-accent">Fahrul</span>
+            </h1>
+            <p class="hero-tagline mb-4">
+              Sedang belajar membangun hal-hal yang bermanfaat lewat kode dan desain.
+            </p>
+            <p class="hero-desc mb-5">
+              Mahasiswa <strong>D4 Manajemen Informatika</strong> di
+              <strong>Universitas Negeri Surabaya</strong> yang antusias
+              di bidang web development dan desain UI. Saya masih dalam
+              proses belajar, tapi selalu semangat mengerjakan project yang
+              seru. Saat ini mengikuti program <strong>WDUIUX – Celerates</strong>.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mb-5">
+              <a href="#projects" class="btn btn-accent">
+                <i class="bi bi-folder2-open me-2"></i>Lihat Project Saya
+              </a>
+              <a href="#contact" class="btn btn-ghost">
+                <i class="bi bi-envelope me-2"></i>Hubungi Saya
+              </a>
+            </div>
+
+            <div class="hero-stack">
+              <span class="stack-label">Lagi belajar →</span>
+              <span class="stack-chip"><i class="bi bi-filetype-html"></i> HTML</span>
+              <span class="stack-chip"><i class="bi bi-filetype-css"></i> CSS</span>
+              <span class="stack-chip"><i class="bi bi-bootstrap"></i> Bootstrap</span>
+              <span class="stack-chip"><i class="bi bi-figma"></i> Figma</span>
+              <span class="stack-chip"><i class="bi bi-filetype-js"></i> JS</span>
+            </div>
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 text-center mb-5 mb-lg-0">
+            <div class="hero-avatar-wrap">
+              <div class="avatar-ring"></div>
+              <div class="avatar-box">
+                <img src="profile.jpg" alt="Graynaldo Fahrul" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+              <!-- floating chips -->
+              <div class="chip chip-top">
+                <i class="bi bi-mortarboard text-warning me-1"></i> UNESA · Smt 5
+              </div>
+              <div class="chip chip-bottom">
+                <i class="bi bi-code-slash text-info me-1"></i> D4 Manajemen Informatika
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint">
+        <div class="scroll-mouse"><div class="scroll-dot"></div></div>
+        <span>Scroll</span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section-pad bg-alt">
+      <div class="container">
+        <div class="section-head text-center mb-5">
+          <span class="section-tag">Tentang Saya</span>
+          <h2 class="section-title">Sedikit tentang <span class="text-accent">saya</span></h2>
+        </div>
+
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5 text-center">
+            <div class="about-card">
+              <div class="about-avatar">
+                <img src="profile.jpg" alt="Graynaldo Fahrul" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" />
+              </div>
+              <!-- identity list -->
+              <div class="identity-list mt-4">
+                <div class="id-row">
+                  <span class="id-label">Nama</span>
+                  <span class="id-value">Graynaldo Fahrul O. P. M.</span>
+                </div>
+                <div class="id-row">
+                  <span class="id-label">Prodi</span>
+                  <span class="id-value">D4 Manajemen Informatika</span>
+                </div>
+                <div class="id-row">
+                  <span class="id-label">Universitas</span>
+                  <span class="id-value">Universitas Negeri Surabaya</span>
+                </div>
+                <div class="id-row">
+                  <span class="id-label">Semester</span>
+                  <span class="id-value">5 (Ganjil 2026)</span>
+                </div>
+                <div class="id-row">
+                  <span class="id-label">Program</span>
+                  <span class="id-value">WDUIUX – Celerates</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <h3 class="fw-700 mb-3">Hai! Saya Graynaldo 👋</h3>
+
+            <p class="text-muted-body mb-3">
+              Saya adalah mahasiswa semester 5 di program studi D4 Manajemen
+              Informatika, Universitas Negeri Surabaya. Saya mulai serius belajar
+              web development dan UI/UX design karena tertarik melihat bagaimana
+              sebuah ide bisa jadi sesuatu yang nyata dan bisa dipakai orang lain.
+            </p>
+            <p class="text-muted-body mb-4">
+              Semua project yang saya kerjakan sejauh ini adalah project kuliah
+              atau project belajar mandiri — belum ada pengalaman kerja profesional.
+              Tapi saya percaya setiap project adalah kesempatan belajar, dan saya
+              terus berusaha membuat sesuatu yang lebih baik dari sebelumnya.
+            </p>
+
+            <!-- honest cards -->
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <div class="honest-card">
+                  <div class="honest-icon"><i class="bi bi-journal-code"></i></div>
+                  <div>
+                    <div class="fw-600">4 Project</div>
+                    <small class="text-muted">Semuanya project kuliah</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="honest-card">
+                  <div class="honest-icon"><i class="bi bi-book"></i></div>
+                  <div>
+                    <div class="fw-600">Masih Belajar</div>
+                    <small class="text-muted">HTML, CSS, JS, Figma</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="honest-card">
+                  <div class="honest-icon"><i class="bi bi-people"></i></div>
+                  <div>
+                    <div class="fw-600">Tim Kecil</div>
+                    <small class="text-muted">Sering bareng teman sekelas</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="honest-card">
+                  <div class="honest-icon"><i class="bi bi-rocket-takeoff"></i></div>
+                  <div>
+                    <div class="fw-600">Semangat Belajar</div>
+                    <small class="text-muted">Selalu ingin berkembang</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-3 flex-wrap">
+              <a href="#projects" class="btn btn-accent">
+                <i class="bi bi-folder2 me-2"></i>Lihat Project
+              </a>
+              <a href="#" class="btn btn-ghost">
+                <i class="bi bi-download me-2"></i>Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section-pad">
+      <div class="container">
+        <div class="section-head text-center mb-5">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">Yang sedang saya <span class="text-accent">pelajari</span></h2>
+          <p class="section-sub">Ini tools dan teknologi yang saya gunakan di project-project kuliah saya</p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Web Dev -->
+          <div class="col-lg-6">
+            <div class="skill-card">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <i class="bi bi-code-slash"></i>
+                </div>
+                <div>
+                  <h5 class="mb-0">Web Development</h5>
+                  <small class="text-muted">Frontend & Markup</small>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-filetype-html me-2 text-danger"></i>HTML5</span>
+                  <span class="skill-pct">Paham cukup baik</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-1" data-target="75"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-filetype-css me-2 text-primary"></i>CSS3</span>
+                  <span class="skill-pct">Masih belajar</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-2" data-target="65"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-bootstrap me-2 text-purple"></i>Bootstrap</span>
+                  <span class="skill-pct">Sering dipakai</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-1" data-target="70"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-filetype-js me-2 text-warning"></i>JavaScript</span>
+                  <span class="skill-pct">Pemula</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-3" data-target="40"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design -->
+          <div class="col-lg-6">
+            <div class="skill-card">
+              <div class="skill-card-head">
+                <div class="skill-icon-box">
+                  <i class="bi bi-palette2"></i>
+                </div>
+                <div>
+                  <h5 class="mb-0">UI/UX & Design</h5>
+                  <small class="text-muted">Desain & Prototyping</small>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-figma me-2 text-warning"></i>Figma</span>
+                  <span class="skill-pct">Sering dipakai</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-2" data-target="72"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-palette me-2 text-success"></i>Canva</span>
+                  <span class="skill-pct">Cukup mahir</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-1" data-target="80"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-phone me-2 text-info"></i>Responsive Design</span>
+                  <span class="skill-pct">Masih belajar</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-3" data-target="60"></div>
+                </div>
+              </div>
+
+              <div class="skill-bar-item">
+                <div class="d-flex justify-content-between mb-1">
+                  <span class="skill-label"><i class="bi bi-git me-2 text-danger"></i>Git & GitHub</span>
+                  <span class="skill-pct">Dasar-dasar</span>
+                </div>
+                <div class="progress skill-prog">
+                  <div class="progress-bar bar-2" data-target="50"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Learning note -->
+        <div class="learning-note mt-4">
+          <i class="bi bi-lightbulb-fill text-warning me-2"></i>
+          <span>Semua skill di atas saya pelajari melalui kuliah, tugas, dan eksplorasi mandiri. Masih banyak yang perlu ditingkatkan!</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section-pad bg-alt">
+      <div class="container">
+        <div class="section-head text-center mb-5">
+          <span class="section-tag">Projects</span>
+          <h2 class="section-title">Project yang pernah <span class="text-accent">saya buat</span></h2>
+          <p class="section-sub">
+            Semua project ini adalah tugas kuliah. Masih jauh dari sempurna,
+            tapi ini proses belajar saya 😊
+          </p>
+        </div>
+
+        <!-- Filter -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="web">🌐 Web</button>
+          <button class="filter-btn" data-filter="game">🎮 Game</button>
+          <button class="filter-btn" data-filter="app">📱 App</button>
+        </div>
+
+        <div class="row g-4" id="projectGrid">
+
+          <!-- PROJECT 1 : MINDLOG (Web) -->
+          <div class="col-lg-6 col-md-6 proj-item" data-cat="web">
+            <div class="proj-card">
+              <div class="proj-thumb" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                <div class="proj-thumb-inner">
+                  <i class="bi bi-journal-richtext proj-thumb-icon"></i>
+                </div>
+                <div class="proj-category-badge">🌐 Web</div>
+              </div>
+              <div class="proj-body">
+                <h5 class="proj-title">Mindlog</h5>
+                <p class="proj-desc">
+                  Aplikasi web journaling untuk mencatat pikiran dan
+                  aktivitas harian. Project tugas kuliah yang dikerjakan
+                  menggunakan HTML, CSS, dan Bootstrap.
+                </p>
+                <div class="proj-tags mb-3">
+                  <span class="proj-tag">HTML</span>
+                  <span class="proj-tag">CSS</span>
+                  <span class="proj-tag">Bootstrap</span>
+                  <span class="proj-tag">Tugas Kuliah</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <a href="https://github.com/Graynaldoo/mindlog" target="_blank" class="btn btn-sm btn-proj-outline">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" class="btn btn-sm btn-proj-fill">
+                    <i class="bi bi-eye me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 : THRIFT-IN (Web) -->
+          <div class="col-lg-6 col-md-6 proj-item" data-cat="web">
+            <div class="proj-card">
+              <div class="proj-thumb" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <div class="proj-thumb-inner">
+                  <i class="bi bi-bag-heart proj-thumb-icon"></i>
+                </div>
+                <div class="proj-category-badge">🌐 Web</div>
+              </div>
+              <div class="proj-body">
+                <h5 class="proj-title">Thrift-In</h5>
+                <p class="proj-desc">
+                  Website platform thrift shop online untuk jual beli
+                  pakaian bekas. Project kuliah dengan tampilan katalog
+                  produk dan halaman detail item.
+                </p>
+                <div class="proj-tags mb-3">
+                  <span class="proj-tag">HTML</span>
+                  <span class="proj-tag">CSS</span>
+                  <span class="proj-tag">Bootstrap</span>
+                  <span class="proj-tag">Tugas Kuliah</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <a href="https://github.com/Graynaldoo/Thrift-in" target="_blank" class="btn btn-sm btn-proj-outline">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" class="btn btn-sm btn-proj-fill">
+                    <i class="bi bi-eye me-1"></i>Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 : FURRY VALOR (Game) -->
+          <div class="col-lg-6 col-md-6 proj-item" data-cat="game">
+            <div class="proj-card">
+              <div class="proj-thumb" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                <div class="proj-thumb-inner">
+                  <i class="bi bi-controller proj-thumb-icon"></i>
+                </div>
+                <div class="proj-category-badge">🎮 Game</div>
+              </div>
+              <div class="proj-body">
+                <h5 class="proj-title">Furry Valor</h5>
+                <p class="proj-desc">
+                  Game dengan karakter furry yang dikerjakan sebagai
+                  project kuliah. Pengalaman pertama saya terjun ke
+                  dunia game development. (Hanya tersedia dalam APK).
+                </p>
+                <div class="proj-tags mb-3">
+                  <span class="proj-tag">Game Dev</span>
+                  <span class="proj-tag">Unity</span>
+                  <span class="proj-tag">Tugas Kuliah</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <a href="#" class="btn btn-sm btn-proj-fill">
+                    <i class="bi bi-download me-1"></i>Download APK
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4 : ATHLIX (App) -->
+          <div class="col-lg-6 col-md-6 proj-item" data-cat="app">
+            <div class="proj-card">
+              <div class="proj-thumb" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                <div class="proj-thumb-inner">
+                  <i class="bi bi-activity proj-thumb-icon"></i>
+                </div>
+                <div class="proj-category-badge">📱 App</div>
+              </div>
+              <div class="proj-body">
+                <h5 class="proj-title">Athlix</h5>
+                <p class="proj-desc">
+                  Aplikasi fitness tracker untuk memantau aktivitas
+                  olahraga. Project kuliah yang saya kerjakan dengan
+                  fokus pada desain UI yang bersih.
+                </p>
+                <div class="proj-tags mb-3">
+                  <span class="proj-tag">App Design</span>
+                  <span class="proj-tag">Figma</span>
+                  <span class="proj-tag">Tugas Kuliah</span>
+                </div>
+                <div class="d-flex gap-2">
+                  <a href="https://github.com/Graynaldoo/athlix_app" target="_blank" class="btn btn-sm btn-proj-outline">
+                    <i class="bi bi-github me-1"></i>GitHub
+                  </a>
+                  <a href="#" class="btn btn-sm btn-proj-fill">
+                    <i class="bi bi-eye me-1"></i>Preview
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- More coming note -->
+        <div class="more-note text-center mt-5">
+          <i class="bi bi-stars me-2 text-accent"></i>
+          Masih banyak yang ingin saya pelajari dan buat ke depannya. <em>Stay tuned!</em>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section-pad">
+      <div class="container">
+        <div class="section-head text-center mb-5">
+          <span class="section-tag">Kontak</span>
+          <h2 class="section-title">Yuk, <span class="text-accent">ngobrol!</span></h2>
+          <p class="section-sub">
+            Mau diskusi soal project, kolaborasi tugas, atau sekadar say hi — 
+            saya terbuka untuk ngobrol 😄
+          </p>
+        </div>
+
+        <div class="row g-5 justify-content-center">
+
+          <!-- Info -->
+          <div class="col-lg-5">
+            <div class="contact-info-box">
+              <h5 class="fw-700 mb-2">Graynaldo Fahrul</h5>
+              <p class="text-muted mb-4" style="font-size: 0.9rem;">
+                Mahasiswa D4 Manajemen Informatika · UNESA
+              </p>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-envelope-fill"></i></div>
+                <div>
+                  <small class="text-muted d-block">Email</small>
+                  <a href="mailto:graynaldo@example.com" class="contact-val">graynaldo@example.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-whatsapp"></i></div>
+                <div>
+                  <small class="text-muted d-block">WhatsApp</small>
+                  <a href="https://wa.me/6281234567890" class="contact-val">+62 812-3456-7890</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon"><i class="bi bi-geo-alt-fill"></i></div>
+                <div>
+                  <small class="text-muted d-block">Lokasi</small>
+                  <span class="contact-val">Surabaya, Jawa Timur</span>
+                </div>
+              </div>
+
+              <!-- Socials -->
+              <div class="mt-4">
+                <p class="text-muted mb-3" style="font-size: 0.85rem;">Temukan saya di:</p>
+                <div class="d-flex gap-2">
+                  <a href="#" class="social-btn" title="GitHub"><i class="bi bi-github"></i></a>
+                  <a href="#" class="social-btn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="#" class="social-btn" title="Instagram"><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="col-lg-6">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label class="form-lbl">Nama</label>
+                  <input type="text" class="form-inp" placeholder="Nama kamu" required />
+                </div>
+                <div class="col-sm-6">
+                  <label class="form-lbl">Email</label>
+                  <input type="email" class="form-inp" placeholder="email@contoh.com" required />
+                </div>
+                <div class="col-12">
+                  <label class="form-lbl">Pesan</label>
+                  <textarea class="form-inp form-textarea" rows="5"
+                    placeholder="Tulis pesanmu di sini — mau tanya, kolaborasi, atau sekadar say hi 👋"
+                    required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-accent w-100" id="submitBtn">
+                    <i class="bi bi-send me-2"></i>Kirim Pesan
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4 py-5 border-bottom-subtle">
+          <div class="col-md-5">
+            <div class="footer-brand mb-2">
+              <span class="brand-accent">Gray</span>naldo
+            </div>
+            <p class="text-muted" style="font-size: 0.875rem; max-width: 280px;">
+              Mahasiswa D4 Manajemen Informatika UNESA yang sedang belajar 
+              web development dan UI/UX design. Masih banyak yang perlu 
+              ditingkatkan, tapi selalu semangat belajar!
+            </p>
+            <div class="d-flex gap-2 mt-3">
+              <a href="#" class="social-btn sm"><i class="bi bi-github"></i></a>
+              <a href="#" class="social-btn sm"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="social-btn sm"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <h6 class="footer-head">Navigasi</h6>
+            <ul class="footer-nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-6">
+            <h6 class="footer-head">Projects</h6>
+            <ul class="footer-nav">
+              <li><a href="#projects">🌐 Mindlog</a></li>
+              <li><a href="#projects">🌐 Thrift-In</a></li>
+              <li><a href="#projects">🎮 Furry Valor</a></li>
+              <li><a href="#projects">📱 Athlix</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="mb-0 text-muted">
+            &copy; 2026 Graynaldo Fahrul Oktavian Putra Mahendra · Dibuat dengan
+            <i class="bi bi-heart-fill text-danger mx-1"></i>dan Bootstrap
+          </p>
+          <p class="mb-0 text-muted" style="font-size:0.8rem;">
+            Tugas Foundations of Web Development · Celerates WDUIUX
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-top" id="backTop" title="Kembali ke atas">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
